@@ -1,5 +1,6 @@
 def my_each(array)
-  
+  yield
+  array
 end
 
 collection = [1, 2, 3, 4]
